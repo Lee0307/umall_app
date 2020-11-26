@@ -1,0 +1,54 @@
+@import ('../../../../stylus/index.styl');
+
+.info {
+    margin: 0 $margin;
+
+    .title {
+        overflow: hidden;
+        margin-top: $margin;
+
+        .name {
+            font-size: $h1;
+            float: left;
+            margin-top: $padding
+        }
+
+        .car {
+            border-left: $border solid $font-color4;
+            float: right;
+
+            .shopcar {
+                width: $shopcarWidth;
+                height: $shopcarWidth;
+                margin: 0 $margin;
+            }
+
+            .collect {
+                color: $font-red;
+                text-align: center;
+                font-size: $h4;
+                margin-top: $padding
+            }
+        }
+    }
+    .priced{
+        color: $font-red
+        margin-top: $margin
+        padding: $padding
+        font-size: $h3
+        display: inline-block
+    }
+    .box {
+        border: $border solid $primary
+        display: inline-block
+        margin-right: $margin
+        padding: $padding
+        color: $primary
+    }
+    .price{
+        color $font-color3
+        font-size: $h3
+        text-decoration: line-through
+        padding: $padding
+    }
+}

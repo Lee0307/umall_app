@@ -1,0 +1,58 @@
+@import("../../../../stylus/index.styl");
+.picker 
+    width: 100vw 
+    height: 100vh
+    background: rgba(0,0,0,0.5)
+    position fixed
+    left 0
+    top: 0
+    .con
+        width: 100vw 
+        height: $height 
+        overflow-y: auto
+        background: $font-fff
+        position absolute
+        left 0 
+        bottom: 0
+        float left
+        .img-parent
+            width: 100% 
+            height: $listBtnWidth
+            margin: $margin
+            img
+                width: $listBtnWidth 
+                height: 100%
+                float left
+            .name
+                float left
+                margin-left: $margin1
+                margin-top: $margin
+                font-size: $h2
+        .spec-title
+            font-size: $h2
+            margin: $margin
+        .btns
+            overflow hidden
+            span 
+                float left
+                margin $margin 
+                padding 0 $padding
+                height $btnHeight
+                border-radius: $borderRadious1
+                text-align: center
+                line-height: $btnHeight
+                border $borderWidth solid $font-color2 
+            .select
+                border $borderWidth solid $primary
+                color $primary
+        .button
+            width $btnWidth1
+            height $btnHeight1
+            background: $primary
+            text-align: center
+            line-height: $btnHeight1
+            color: $font-fff
+            border-radius: $borderRadious1
+            font-size: $h3
+            position relative
+            left 35%

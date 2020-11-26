@@ -1,0 +1,53 @@
+@import ("../../stylus/index.styl")
+
+.cate
+    width 100vw
+    height 100vh
+    background: $cateBackground
+    .left
+        width 30%
+        height 100vh
+        float left
+        .name
+            width 95%
+            height $cateHeight
+            border-left: $borderLeft solid $cateBackground
+            background: $cateBackground
+            text-align: center
+            .title
+                width 100%
+                text-align: center
+                line-height: $cateHeight
+                font-size: $h3
+        .select
+            border-left: $borderLeft solid $navBackground
+            background: $cateBackground
+            background: $font-fff
+            color: $primary 
+    .right
+        width 70%
+        height 100vh
+        float: right 
+        .itme
+            width $navWidth1
+            height $navWidth1
+            float left
+            margin $margin
+            border-radius: $borderRadious
+            position relative
+            img 
+                width 100%
+                height 100%
+                border-radius: $borderRadious
+            .con
+                position absolute
+                left 0
+                bottom: 0
+                background: $navBackground
+                color: $font-fff
+                width: 100% 
+                text-align: center 
+                line-height: 0.4rem
+                border-radius: 0 0 $borderRadious $borderRadious
+                
+                

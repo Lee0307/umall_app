@@ -1,0 +1,83 @@
+@import("../../stylus/index.styl")
+
+.mine
+    width 100vw
+    overflow hidden
+    .bg
+        width 100vw
+        height 2rem
+        background: $primary
+        .cir
+            width 2.5rem
+            height 2.5rem
+            background: $font-fff
+            border-radius: 50%
+            margin-top: .8rem
+            margin-left: 33%
+            display: inline-block
+            text-align: center
+            line-height 2.5rem
+            img 
+                width 2rem
+                height 2rem
+                border-radius: 50%
+                margin-top: 10%
+    .people
+        width 100vw
+        height 2.8rem
+        background: $font-fff
+        overflow hidden
+        .name
+            text-align: center
+            margin-top: $margin3
+        .collect
+            width 100%
+            margin: $margin
+            overflow hidden
+            img 
+                width $storeImg
+                height $storeImg
+                margin: $margin
+                float left
+            .mine
+                font-size: $h3
+                margin: $margin
+                line-height .8rem
+    .order
+        width 100vw
+        background: $font-fff
+        margin-top: $margin
+        overflow hidden
+        border-bottom: $border solid $font-color4
+        .left
+            float left
+            color: $font-color1
+            padding $margin1
+            font-size: $h3
+        .right
+            float: right 
+            color: $font-color3
+            padding $margin1
+            font-size: $h3
+    .nav
+        width 100%
+        background: $font-fff
+        display flex
+        .mian
+            flex: 1
+            img 
+                width $iconImg
+                margin: $margin1
+            .send
+                margin-left: $margin
+                padding-bottom: $margin
+                color: $font-color3 
+    .address
+        width 100%
+        height 1rem
+        line-height: 1rem
+        background $font-fff
+        margin-top: $margin
+        color: $font-color3    
+        font-size: $h2
+        padding-left: $margin            

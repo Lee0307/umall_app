@@ -1,0 +1,26 @@
+@import ('../../stylus/index.styl');
+
+.detail {
+    padding-bottom: $footerHeight;
+
+    .footer {
+        width: 100vw;
+        height: $footerHeight;
+        box-sizing: border-box;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: $font-fff;
+        border-top: $borderWidth solid $font-color3;
+        .add{
+            float: right 
+            background: $primary
+            width $addWidth
+            height $footerHeight;
+            text-align: center
+            line-height: $footerHeight;
+            color: $font-fff
+            font-size: $h3
+        }
+    }
+}

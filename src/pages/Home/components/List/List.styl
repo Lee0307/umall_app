@@ -1,0 +1,53 @@
+@import ('../../../../stylus/index.styl');
+
+.list {
+    margin: 0 $margin
+
+    .listcon {
+        height: auto;
+        overflow: hidden;
+        display: block;
+        margin-top: $margin;
+
+        .conImg {
+            width: $conImg;
+            height: $conImg;
+            float: left;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .conMain {
+            display: right;
+            padding-left: $margin;
+            overflow: hidden;
+
+            .conTitle {
+                font-size: $h1;
+                color: $font-color1;
+                margin-top: $margin;
+            }
+
+            .conPrice {
+                font-size: $h2;
+                margin-top: $margin;
+                color: $font-red;
+            }
+
+            .list-btn {
+                width: $listBtnWidth;
+                height: $listBtnHeight;
+                background: $primary;
+                border-radius: 0.1rem;
+                color: $font-fff;
+                text-align: center;
+                line-height: $listBtnHeight;
+                font-size: $h3;
+                margin-top: $margin;
+            }
+        }
+    }
+}
